@@ -500,8 +500,9 @@ p {
 }
 
 .navbar-btn .ud-white-btn {
-  /* background: rgba(255, 255, 255, 0.2); */
-  background-color: var(--cyber-yellow);;
+  background: rgba(255, 255, 255, 0.2);
+  /* background-color: var(--white);; */
+  background: white;  
 }
 
 .navbar-btn .ud-white-btn:hover {
@@ -571,7 +572,7 @@ p {
 }
 
 .ud-hero-content .ud-hero-title {
-  color: var(--cyber-yellow);
+  color: var(--white);
   font-weight: 700;
   font-size: 45px;
   line-height: 60px;
@@ -646,8 +647,8 @@ p {
 }
 
 .ud-hero-buttons .ud-white-btn {
-  background: var(--cyber-yellow);
-  color: white;
+  background: var(--white);
+  color: var(--primary-color);
 }
 
 .ud-hero-buttons .ud-white-btn:hover {
@@ -737,7 +738,7 @@ p {
   font-size: 42px;
   line-height: 55px;
   text-transform: capitalize;
-  color: var(--cyber-yellow);
+  color: black;
   margin-bottom: 20px;
 }
 
@@ -1278,6 +1279,7 @@ p {
 }
 .ud-team h1{
   margin-bottom: 3rem;
+  color: white;
 }
 
 @media (max-width: 767px) {
@@ -1533,7 +1535,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 
 /* ===== Footer CSS ===== */
 .ud-footer {
-  background: var(--heading-color);
+  background: #333333;
   padding-top: 100px;
   position: relative;
   z-index: 1;

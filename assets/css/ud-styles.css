@@ -15,7 +15,7 @@
   --font: "Inter", sans-serif;
   --body-color: #637381;
   --heading-color: #212b36;
-  --primary-color: #3056d3;
+  --primary-color: #014D4E;
   --white: #ffffff;
 }
 
@@ -162,8 +162,8 @@ p {
 
 @media (max-width: 767px) {
   .container {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 35px;
+    padding-right: 35px;
   }
 }
 
@@ -229,6 +229,7 @@ p {
 }
 
 .navbar {
+  height: 70px;
   padding: 0px 0;
   border-radius: 5px;
   position: relative;
@@ -238,6 +239,11 @@ p {
 
 .navbar-brand {
   padding: 0;
+  border-radius:5px;
+  overflow: hidden;
+  height: 50px;
+  width:50px;
+  
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
@@ -247,7 +253,8 @@ p {
 }
 
 .navbar-brand img {
-  max-width: 160px;
+  /* height: 50px; */
+  max-width: 50px;
 }
 
 .navbar-toggler {
@@ -574,6 +581,7 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -585,7 +593,9 @@ p {
 .ud-hero-buttons .ud-main-btn {
   margin: 8px;
 }
-
+.learn-btn{
+  display: none;
+}
 @media (max-width: 767px) {
   .ud-hero-buttons .ud-main-btn {
     margin: 5px;
@@ -716,6 +726,7 @@ p {
 }
 
 .ud-single-feature .ud-feature-icon {
+  overflow: hidden;
   width: 70px;
   height: 70px;
   display: -webkit-box;

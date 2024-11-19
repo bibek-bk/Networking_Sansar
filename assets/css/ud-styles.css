@@ -171,7 +171,7 @@ p {
   z-index: 5;
   -webkit-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
-  /* background: var(--primary-color); */
+  background: var(--primary-color);
 }
 
 .ud-main-btn:hover {
@@ -499,16 +499,6 @@ p {
   opacity: 0.5;
 }
 
-.navbar-btn .ud-white-btn {
-  background: rgba(255, 255, 255, 0.2);
-  /* background-color: var(--white);; */
-  background: white;  
-}
-
-.navbar-btn .ud-white-btn:hover {
-  background: white;
-  color: var(--heading-color);
-}
 
 .sticky .navbar-toggler .toggler-icon {
   background-color: var(--heading-color);
@@ -647,8 +637,8 @@ p {
 }
 
 .ud-hero-buttons .ud-white-btn {
-  background: var(--white);
-  color: var(--primary-color);
+  background: var(--cyber-yellow);
+  color: var(--white);
 }
 
 .ud-hero-buttons .ud-white-btn:hover {
